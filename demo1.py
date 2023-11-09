@@ -50,14 +50,7 @@ def debug_print(*args, **kwargs):
     print(*args, **kwargs, file=sys.stderr)
 
 
-# large motors don't have a hold function so I made my own to lock the front wheels in place
-#   when steering or not steering.
-#def hold_steering_motor(check):
- #       while check == True:
-  #          position = frontWheels.position
-   #         frontWheels.on_to_position(0,position)
-
-#distance has to be in cm
+#distance was in cm
 def moveForward(forward,speed):
     distance = x
     rotations = distance/wheelcircumference
