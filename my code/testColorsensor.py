@@ -9,7 +9,7 @@ from apr import APR
 import time
 from os import *
 
-#testing color sensor 
+#testing color sensor
 colorScanner = ColorSensor(INPUT_1)
 
 x = 0
