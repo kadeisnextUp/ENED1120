@@ -17,7 +17,7 @@
 # have a general understanding of all aspects of its
 # development and execution.
 # 
-# Follows the tasks of the first demo
+# Follows the tasks of the first status update
 # 
 
 # all the neccessary imports for now
